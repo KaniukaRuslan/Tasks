@@ -8,6 +8,8 @@ namespace Tasks
     {
         public static void Main(string[] args)
         {
+            System.Console.OutputEncoding = System.Text.Encoding.Unicode;
+            System.Console.InputEncoding = System.Text.Encoding.Unicode;
             int a;
             double b;
             long c;
